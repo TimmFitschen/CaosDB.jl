@@ -48,7 +48,7 @@ end
 
 mutable struct Entity
     role::String
-    id::Union{Missing,Int64}
+    id::Union{Missing,String}
     name::Union{Missing,String}
     value::Union{Missing,String}
     parents::Vector{Entity}

@@ -1,3 +1,9 @@
 using Test
+using CaosDB
 
-# include(all_test_files.jl)
+
+tests = ["testcaosdb",]
+for t in tests
+    include("$(t).jl")
+end
+
